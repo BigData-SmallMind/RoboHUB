@@ -1,0 +1,514 @@
+
+
+body {
+  box-sizing: border-box;
+  font-family: "Leelawadee UI";
+  color: white;
+  background-color: #0c1d37;
+  background-image: linear-gradient(
+    180deg,
+    #212a38 0%,
+    #152134 14%,
+    #122137 31%,
+    #111f32 50%,
+    #121d2c 71%,
+    #1a2433 87%,
+    #2d3137 100%
+  );
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./Assets/Images/Hero-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+
+}
+.container {
+  max-width: 1024px;
+  margin: auto;
+  padding: 0rem 1rem 0 1rem;
+}
+
+
+nav {
+  padding-top: 40px;
+  max-height: 300px;
+  position: relative;
+}
+
+
+
+.burger {
+  position: absolute;
+  display: block;
+  right: 0;
+  bottom: 0;
+  font-size: 3rem;
+}
+
+.nav-list {
+  display: none;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background-color: #2d3137;
+  border-radius: 5px;
+  box-shadow: 5px 5px #9aa6b81e;
+  
+}
+
+.logo {
+  max-height: 100px;
+}
+
+
+.nav-list a {
+  padding: 5px 10px;
+  font-size: 1rem;
+  list-style-type: none;
+  display: block;
+}
+.nav-list a:hover {
+  background-color: #3a4154;
+  color: antiquewhite;
+}
+
+.title {
+  
+  min-height: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-weight: 200;
+  font-size: clamp(1rem, 10vw, 4rem);
+  letter-spacing: clamp(0rem, 20vw, 0.7rem);
+  position: relative;
+  top:10vh;
+}
+
+
+
+
+.sec {
+  text-align: center;
+  max-width: 1024px;
+  min-height: 100vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+.title-2 {
+  margin: auto;
+}
+
+h2 {
+  padding-top: 20px;
+  font-size: clamp(0.5rem, 2.5vw, 1rem);
+  font-weight: 100;
+}
+
+.sec h3 {
+  font-size: clamp(1rem, 30vw, 1.5rem);
+  font-weight: 600;
+  width: clamp(200px,30vw,400px);
+  word-wrap: break-word;
+  margin: auto;
+  padding: 2rem;
+}
+
+.sec p {
+  font-size: clamp(1rem, 2.5vw, 1rem);
+  width: clamp(300px, 50vw, 600px) ;
+  margin: auto;
+}
+
+.icon-container {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.icon {
+  padding: 1rem;
+  border: 2px solid white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  min-width: 12%;
+}
+
+.sec svg {
+  stroke: #c7c7c7;
+  padding: 1rem;
+  padding-top: 0;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.sec-3 {
+  min-height: 100vh;
+}
+
+.sec-3 h2 {
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.sec-31 {
+  display: flex;
+  flex-direction: column;
+}
+.sec-311 {
+  display: flex;
+  align-items: flex-end;
+}
+
+.sec-3 p {
+  text-align: left;
+  min-width: 350px;
+  padding-left: 2.5rem;
+}
+
+.sec-3 svg {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.sec-3 h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.sec-3 h3 {
+  max-width: 500px;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.sec-312 {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.sec-3 .center {
+  text-align: center;
+}
+
+@media only screen and (max-width: 630px) {
+ 
+  .sec-312 {
+    flex-direction: column;
+  }
+  .sec-3 p {
+    text-align: left;
+  }
+
+  .image {
+    text-align: center;
+  }
+}
+
+.image img {
+  width: 50%;
+  box-shadow: 10px 10px #c7c7c7;
+}
+
+.brands-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+.sec-4 {
+  min-height: 100vh;
+}
+
+.sec-4 .brand {
+  width: 20%;
+  min-height: 160px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 370px) {
+  .sec-4 .brand {
+    min-height: 50px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .sec-4 .brand {
+    min-height: 90px;
+  }
+}
+.brand img {
+  width: 70%;
+}
+.sec-4 .dummy {
+  width: 20%;
+}
+.sec-4 h3 {
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.view-height {
+  min-height: 100vh;
+  background-color: #096e88;
+  display: flex;
+  justify-content: center;
+}
+.sec-5 {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.card-container {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+  gap: 2rem;
+  padding: 2rem 0 2rem 0;
+}
+
+
+
+.card1,
+.card11,
+.card2,
+.card3 {
+  width: 25%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-container {
+    margin-top: 2rem;
+  }
+  .card1,
+  .card11,
+ .card2,
+ .card3 {
+   width: 60%;
+ }}
+
+.card1, .card11 {
+  background-color: #3a4154;
+}
+.card1 p {
+  margin: 0;
+}
+.card2 {
+  background-color: #096e88;
+}
+.card3 {
+  background-color: #020a1d;
+}
+.container.card-container p {
+  font-size: 1rem;
+}
+.heading {
+  font-size: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+
+.sec-5 p {
+  font-size: 1.35rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.sec-6 {
+  min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec-6 h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 2rem;
+  max-width: 425px;
+}
+
+.after-sales-container {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.sales-icon {
+  padding: 1rem;
+  border: 2px solid white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  text-align: center;
+}
+
+.sales-icon svg{
+scale: 0.6;
+}
+@media only screen and (min-width: 600px) {
+  .sales-icon {
+    width: 20%;
+  }
+  .sales-icon svg{
+    scale: 0.7;
+    }
+}
+.sec-7 .svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    border: 2px solid white;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.sec-7 h2 {
+    font-size: 2rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: bold;
+}
+.sec-7 h3 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.step {
+    text-align: center;
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.step-text {
+    font-weight: bold;
+}
+
+.sec-7 p {
+    color: #c7c7c7;
+    /* max-width: 20vw; */
+}
+
+@media only screen and (min-width: 600px) {
+  .sec-7 p {
+    width: 50vw;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .sec-7 p {
+    width: 20vw;
+  }
+}
+.sec-8{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-8 h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    max-width: 20vw;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .sec-8 h3 {
+    max-width: 40vw;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .sec-8 h3 {
+    max-width: 70vw;
+  }
+}
+
+
+footer {
+    padding: 2rem 0 2rem 0 ;
+    background-color: #0c1d37;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+
+}
+
+.trade-mark , .sec-8 p{
+    font-size: 0.8rem;
+    color: #c7c7c7;
+}
+.logo-footer {
+  min-height: 100px;
+}
+a {
+    color: #c7c7c7;
+    text-decoration: none;
+}
