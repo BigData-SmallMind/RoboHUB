@@ -3,7 +3,7 @@
 body {
   box-sizing: border-box;
   font-family: "Leelawadee UI";
-  color: white;
+  color: rgb(237, 237, 237);
   background-color: #0c1d37;
   background-image: linear-gradient(
     180deg,
@@ -92,6 +92,7 @@ h1 {
   letter-spacing: clamp(0rem, 20vw, 0.7rem);
   position: relative;
   top:10vh;
+  color: white;
 }
 
 
@@ -143,7 +144,7 @@ h2 {
 
 .icon {
   padding: 1rem;
-  border: 2px solid white;
+  border: 2px solid #c7c7c7;
   border-radius: 20px;
   display: flex;
   justify-content: space-around;
@@ -247,7 +248,7 @@ h2 {
 .sec-4 .brand {
   width: 20%;
   min-height: 160px;
-  background-color: white;
+  background-color: rgb(143, 135, 135);
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -388,7 +389,7 @@ h2 {
 
 .sales-icon {
   padding: 1rem;
-  border: 2px solid white;
+  border: 2px solid #c7c7c7;
   border-radius: 20px;
   display: flex;
   justify-content: space-around;
@@ -414,7 +415,7 @@ scale: 0.6;
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
-    border: 2px solid white;
+    border: 2px solid #c7c7c7;
     width: 100px;
     height: 100px;
     border-radius: 10px;
