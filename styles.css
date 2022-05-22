@@ -3,7 +3,7 @@
 body {
   box-sizing: border-box;
   font-family: "Leelawadee UI";
-  color: rgb(237, 237, 237);
+  color: rgb(235, 235, 235);
   background-color: #0c1d37;
   background-image: linear-gradient(
     180deg,
@@ -248,7 +248,7 @@ h2 {
 .sec-4 .brand {
   width: 20%;
   min-height: 160px;
-  background-color: rgb(143, 135, 135);
+  background-color: rgb(205, 205, 205);
   border-radius: 10px;
   display: flex;
   align-items: center;
